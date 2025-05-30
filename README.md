@@ -1,30 +1,5 @@
 # Mark_Management_System
 
-Database:
-
-CREATE TABLE student_marks (
-    StudentID INT(11) NOT NULL PRIMARY KEY,
-    StudentName VARCHAR(100),
-    Section VARCHAR(10),
-    CC INT(11),
-    ML INT(11),
-    ADJ INT(11),
-    REPP INT(11),
-    IKS INT(11)
-    ExamDate date,
-);
-
-
-
-USE markfinal;
-
-
-SELECT * FROM student_marks;
-
-
-
-
-
 
 
 [AddMark1]->(https://github.com/sanjana56789/Mark_Management_System/blob/main/Mark_Management/AddMarks1.jpg)
