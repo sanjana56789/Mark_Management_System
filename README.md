@@ -2,7 +2,7 @@
 
 Database:
 
-CREATE TABLE new_studentmarks (
+CREATE TABLE student_mark (
     StudentID INT(11) NOT NULL PRIMARY KEY,
     StudentName VARCHAR(100),
     Section VARCHAR(10),
@@ -15,10 +15,13 @@ CREATE TABLE new_studentmarks (
 
 
 
-USE markdb;
+USE markfinal;
 
 
-SELECT * FROM new_studentmarks;
+SELECT * FROM student_mark;
+
+
+
 
 
 
